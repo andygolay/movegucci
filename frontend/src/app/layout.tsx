@@ -14,18 +14,18 @@ const kongtext = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Aptogotchi",
-  description: "Aptogotchi - Your new favorite on-chain pet!",
+  title: "Movegucci",
+  description: "Movegucci - Your new favorite on-chain pet!",
   openGraph: {
-    title: "Aptogotchi",
-    description: "Aptogotchi - Your new favorite on-chain pet!",
-    images: ["/aptogotchi.png"],
+    title: "Movegucci",
+    description: "Movegucci - Your new favorite on-chain pet!",
+    images: ["/Movegucci.png"],
   },
   twitter: {
     card: "summary",
     site: "@Aptos_Network",
-    title: "Aptogotchi",
-    description: "Aptogotchi - Your new favorite on-chain pet!",
+    title: "Movegucci",
+    description: "Movegucci - Your new favorite on-chain pet!",
     images: ["/aptogotchi.png"],
   },
 };

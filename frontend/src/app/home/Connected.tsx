@@ -9,8 +9,6 @@ import { Modal } from "@/components/Modal";
 import { ABI } from "@/utils/abi";
 import { usePet } from "@/context/PetContext";
 
-const TESTNET_ID = "2";
-
 const aptosClient = getAptosClient();
 
 export function Connected() {
@@ -61,7 +59,6 @@ export function Connected() {
 
   return (
     <div className="flex flex-col gap-3 p-3">
-      {network?.chainId !== TESTNET_ID && <Modal />}
       {pet ? <Pet /> : <Mint fetchPet={fetchPet} />}
     </div>
   );
