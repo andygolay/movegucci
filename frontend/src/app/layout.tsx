@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary",
     site: "@Aptos_Network",
     title: "Movegucci",
-    description: "Movegucci - Your new favorite on-chain pet!",
+    description: "Narwhal Moverz - Your new favorite on-chain pet!",
     images: ["/aptogotchi.png"],
   },
 };

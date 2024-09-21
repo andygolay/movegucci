@@ -15,7 +15,6 @@ export function PetImage(props: PetImageProps) {
 
   if (!petParts) return <div className="h-80 w-80 bg-gray-200"></div>;
 
-  const head = BASE_PATH + "head.png";
   const body = BASE_PATH + bodies[petParts.body];
   const ear = BASE_PATH + ears[petParts.ear];
   const face = BASE_PATH + faces[petParts.face];
@@ -27,13 +26,12 @@ export function PetImage(props: PetImageProps) {
 
   return (
     <div
-      className={`bg-[hsl(104,40%,75%)] border-double border-8 border-black p-2 relative ${
+      className={`border-double border-8 border-black p-2 relative ${
         avatarStyle ? "h-44 w-44" : "h-80 w-80"
       }`}
-      style={{ paddingTop: "1rem" }}
+      style={{ paddingTop: "1rem", backgroundColor: '#ffd013' }}
     >
       <div className={`relative h-full w-full ${animation}`}>
-        <img src={head} className={imgClass} alt="pet head" />
         <img src={body} className={imgClass} alt="pet body" />
         <img src={ear} className={imgClass} alt="pet ears" />
         <img src={face} className={imgClass} alt="pet face" />
