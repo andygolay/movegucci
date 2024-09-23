@@ -37,7 +37,7 @@ export function Connected() {
         });
 
         const [name, birthday, energyPoints, parts] = response;
-        const typedParts = parts as { body: number; ear: number; face: number };
+        const typedParts = parts as { background: number; body: number; mouth: number; tusk: number; eye: number; glasses: number; hair: number; };
 
         setPet({
           name: name as string,

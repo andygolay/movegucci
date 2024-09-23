@@ -5,7 +5,7 @@ module aptogotchi_addr::main {
     use aptos_framework::object::ExtendRef;
     use aptos_std::string_utils::{to_string};
     use aptos_token_objects::collection;
-    use aptos_token_objects::token;
+    use aptos_token_objects::token; 
     use std::error;
     use std::option;
     use std::signer::address_of;
